@@ -1,0 +1,14 @@
+#JavaScript artifacts to be created
+*.js
+*.js.map
+
+#Visual Studio crap from original source code
+*.csproj*
+*.sln
+*.suo
+bin/
+obj/
+web.config
+
+#Installed node.js modules
+node_modules/
