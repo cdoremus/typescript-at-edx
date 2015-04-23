@@ -2,6 +2,9 @@
 *.js
 *.js.map
 
+#Gulp files
+!gulpfile*.js
+
 #Visual Studio crap from original source code
 *.csproj*
 *.sln
