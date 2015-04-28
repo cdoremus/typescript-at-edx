@@ -1,7 +1,7 @@
 ﻿//TODO: 
 //Modify this class to it implements the IBaseRecipeCategory interface
 
-class BaseRecipeCategory {
+class BaseRecipeCategory implements IBaseRecipeCategory {
     name: string;
     foodGroups: FoodGroup[] = [];
 
