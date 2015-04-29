@@ -52,4 +52,15 @@ gulp.task('watch', function() {
     gulp.watch([config.allTypeScript], ['compile-ts', 'gen-ts-refs']);
 });
 
+var webserver = require('gulp-webserver'); 
+gulp.task('webserver', function() {
+  gulp.src(config.source)
+    .pipe(webserver({
+        fallback: 'cookbook.html',
+      livereload: true,
+      directoryListing: false,
+      open: true
+    }));
+});
+
 gulp.task('default', ['compile-ts', 'gen-ts-refs', 'watch']);
