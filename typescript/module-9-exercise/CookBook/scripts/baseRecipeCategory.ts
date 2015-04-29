@@ -1,6 +1,12 @@
 ﻿//FROM MODULES 6-8: 
 //Copy your BaseRecipeCategory class code
+class BaseRecipeCategory implements IBaseRecipeCategory {
+    name: string;
+    foodGroups: FoodGroup[] = [];
 
-class BaseRecipeCategory  {
-  
+    constructor(name:string, foodGroups: FoodGroup[]) {
+    	this.name = name;
+    	this.foodGroups = foodGroups;
+    }
+    
 } 
