@@ -6,11 +6,11 @@
         recipeCategoriesSummary.items.forEach((category) => {
             var opt = document.createElement('option');
             opt.setAttribute('title', category.title);
-            opt.innerHTML = category.text;
+            opt.innerHTML = category.title;
             recipeSelect.appendChild(opt);
         });
     }
-
+    
     renderCategory(category: IRecipeCategory) {
         //Update foodgroups bullet points
         var foodGroups = (<HTMLSelectElement> document.getElementById('FoodGroups'));
