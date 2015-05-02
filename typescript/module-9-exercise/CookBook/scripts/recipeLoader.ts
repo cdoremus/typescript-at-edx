@@ -38,7 +38,7 @@ class RecipeLoader {
                 //object's items collection
                 //HINT: The constructor object passed must match the IRecipeCategorySummary interface
                 //HINT: Use the push() function
-                var recipeCategorySummary = new RecipeCategorySummary({text: category.title, title: category.details});
+                var recipeCategorySummary = new RecipeCategorySummary({title: category.title, text: category.details});
                 recipeCategoriesSummary.items.push(recipeCategorySummary);
                 
             });
