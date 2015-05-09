@@ -2,29 +2,44 @@
 	"famousPainters": [
 		{
 			"name": "Michelangelo",
-			"style:": "Renaissance",
-			"examples: ": [ "David", "Sistine Chapel", "The Last Judgement" ]
+			"style": "Renaissance",
+			"examples": [ "David", "Sistine Chapel", "The Last Judgement" ],
+            "birthplace" : " Caprese Michelangelo, Italy",
+            "nationality" : "Italian",
+            "birthdate" : " March 6, 1475"
 		},
         {
             "name": "Raphael",
-            "style:": "Renaissance",
-            "examples: ": [ "School at Athens", "Lucretia", "Saint George and the Dragon" ]
+            "style": "Renaissance",
+            "examples": [ "School at Athens", "Lucretia", "Saint George and the Dragon" ],
+            "birthplace" : "Urbino, Italy",
+            "nationality" : "Italian",
+            "birthdate" : "March 28, 1483 or April 6, 1483"
         },
         {
             "name": "Vincent van Gogh",
-            "style:": "Post-Impressionist",
-            "examples: ": [ "Self-portrait", "The Starry Night", "The Yellow House" ]
+            "style": "Post-Impressionist",
+            "examples": [ "Self-portrait", "The Starry Night", "The Yellow House" ],
+            "birthplace" : "Zundert, Netherlands",
+            "nationality" : "Dutch",
+            "birthdate" : "March 30, 1853" 
         },
         {
             "name": "Claude Monet",
-            "style:": "Impressionist",
-            "examples: ": [ "Morning on the Seine", "The Woman in the Green Dress", "Sunrise" ]
+            "style": "Impressionist",
+            "examples": [ "Morning on the Seine", "The Woman in the Green Dress", "Sunrise" ],
+            "birthplace" : "Rue Laffitte, Paris, France",
+            "nationality" : "French",
+            "birthdate" : "November 14, 1840"
         },
         {
             "name": "Johannes Vermeer",
-            "style:": "Baroque",
-            "examples: ": [ "The Milkmaid", "Girl with a Pearl Earring", "The Music Lesson" ]
-        },
+            "style": "Baroque",
+            "examples": [ "The Milkmaid", "Girl with a Pearl Earring", "The Music Lesson" ],
+            "birthplace" : "Delft, Netherlands",
+            "nationality" : "Dutch",
+            "birthdate" : "October 31, 1632"
+        }
 	]
 
 }

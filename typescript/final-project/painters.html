@@ -1,12 +1,11 @@
 ﻿<!DOCTYPE html>
-
 <html lang="en">
 <head>
     <meta charset="utf-8" />
     <title>TypeScript HTML App</title>
     <link rel="stylesheet" href="app.css" type="text/css" />
     <link href="styles/app.css" rel="stylesheet" />
-    <script src="app.js"></script>
+    <!-- script src="app.js"></script -->
 </head>
 <body>
     <div class="row">
@@ -19,6 +18,36 @@
     </div>
 
 
-    <div id="content"></div>
+    <div id="content">
+        
+        <h3>Painter</h3>
+        <div>
+            <select id="PainterSelect"> 
+                <option disabled>Choose a painter. . .</option>
+            </select>
+        </div>
+
+        <h3>Artistic Style</h3>
+        <div id="artisticStyle"></div>
+
+        <h3>Birthplace</h3>
+        <div id="birthplace"></div>
+
+        <h3>Nationality</h3>
+        <div id="nationality"></div>
+
+        <h3>Birth date</h3>
+        <div id="birthdate"></div>
+
+        <h3>Examples of Artwork</h3>
+        <div class="examples" id="examples"></div>
+        
+    </div>
+
+    <script src="scripts/libs/jquery-1.11.2.js"></script>
+    <script src="scripts/painterLoader.js"></script>
+    <script src="scripts/renderer.js"></script>
+    <script src="scripts/entities.js"></script>
+    <script src="scripts/initializer.js"></script>
 </body>
 </html>

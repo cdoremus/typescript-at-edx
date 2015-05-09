@@ -12,12 +12,12 @@ textarea
     width: 200px;
     height: 100px;
 
-margin-top: 5px; 
+    margin-top: 5px; 
 }
 
-.foodGroups
+#content
 {
-    /*float:left*/
+    float:left;
 }
 
 .logoImg
