@@ -7,6 +7,10 @@ span {
     font-style: italic;
 }
 
+h3 {
+    display:inline;    
+}
+
 textarea
 {
     width: 200px;
@@ -14,6 +18,13 @@ textarea
 
     margin-top: 5px; 
 }
+
+
+.painterData {
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+}
+
 
 #content
 {
@@ -28,5 +39,5 @@ textarea
 }
 .examples
 {
-    float:left;
+
 }
