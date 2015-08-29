@@ -1,1 +1,0 @@
-Holds code from edX course Introduction to TypeScript given by Microsoft in the Spring of 2015.
