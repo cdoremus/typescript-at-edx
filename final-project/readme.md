@@ -6,3 +6,6 @@ Steps to run Gulp processes:
 2. Run "gulp" at the command-line. This will compile all of the TypeScript files and generate .js and .map (for debugging) files. A watcher will also be 
 created to monitor any changes in the .ts files. Leave the command-window open while doing development work.
 3. In a separate command window run "gulp webserver" to start up the gulp-webserver plugin, which loads the page into the default browser and reloads the page when the app code changes.
+
+A demo of the application can be found at YouTube [here](https://www.youtube.com/watch?v=gG6tbPd87bg).
+
