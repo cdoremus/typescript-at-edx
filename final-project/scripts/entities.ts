@@ -40,10 +40,10 @@ class FamousPainters {
 
 	public toString(): string {
 		var str: string = "FamousPainters {";
-			for( var i = 0; i < items.length; i++) {
+			for( var i = 0; i < this.items.length; i++) {
 				str = str + "[";
-				str = str + items[i];
-				if (i < items.length) {
+				str = str + this.items[i];
+				if (i < this.items.length) {
 					str = str + "]";
 				}
 			}
