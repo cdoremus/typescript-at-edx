@@ -1,1 +1,0 @@
-{"version":3,"sources":["main.ts"],"names":[],"mappings":"AAAA,OAAO,CAAC,MAAM,CAAC;IACd,OAAO,EAAE,SAAS;CAClB,CAAC,CAAC;AAEH,SAAS,CAAC,CAAC,aAAa,CAAC,CAAC,CAAC","file":"main.js","sourceRoot":"/home/craig/git/edX/typescript/module-11-exercise/","sourcesContent":["require.config({\n\tbaseUrl: 'scripts'\n});\n\nrequirejs(['initializer']);"]}
